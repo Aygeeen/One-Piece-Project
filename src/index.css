@@ -1,0 +1,144 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.wrapper {
+    background: #2c8aa6;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    max-width: 1280px;
+    margin: 50px auto;
+    border: 2px solid black;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.header-ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-left: 478px;
+}
+
+.header-ul li {
+    margin-right: 60px;
+}
+
+.header-ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #155050;
+    transition: transform 0.2s ease-in-out;
+    display: inline-block
+}
+
+.header-ul li a:hover {
+    color: #3434c2;
+    transform: translateY(-3px)
+}
+
+/*-------------------------------------------------------*/
+
+
+.content img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-right {
+    transform: rotate(180deg);
+
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    min-height: 363px;
+    width: 100%;
+    border: 2px solid black;
+    max-height: 360px;
+    background-color: #3271b9;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border-radius: 50px;
+}
+
+.characters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mugiwara{
+    width: 50px;
+}
+.warlords{
+    width: 60px;
+}
+hr{
+    border: 1px solid black;
+}
+/*--------------------------*/
+.header-ul {
+    position: relative;
+}
+
+.characters-dropdown {
+    position: relative;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    right: -62px;
+    top: 30px;
+    list-style-type: initial;
+}
+
+.characters-dropdown:hover .dropdown {
+    display: block;
+}
+.dropdown li:last-child {
+    border-bottom: none;
+}
+.characters-dropdown:hover {
+    margin-top: -30px;
+}
+.dropdown li{
+    width: 111px
+}
+/*----------------------*/
+.marine{
+    width: 60px;
+    filter: brightness(0) invert(1);
+    margin-left: 10px;
+}
