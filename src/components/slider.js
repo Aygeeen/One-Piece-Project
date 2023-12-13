@@ -91,7 +91,8 @@ export default function Slider() {
             </div>
             {/*------------------------------------------------------------------------------------------*/}
             <hr/>
-                <h2 id="marine" className="characters">Морские Дозорные<img src="/images/marine.png" alt="#" className="marine"/></h2>
+            <h2 id="marine" className="characters">Морские Дозорные<img src="/images/marine.png" alt="#"
+                                                                        className="marine"/></h2>
             <div className="slider">
                 <div className="content">
                     <img src="/images/right_long_arrow_icon_214373.png" alt="" className="img-right"

@@ -25,7 +25,7 @@ code {
 .header {
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding-bottom: 40px;
 }
 
 .header-ul {
@@ -42,7 +42,7 @@ code {
 .header-ul li a {
     text-decoration: none;
     font-size: 18px;
-    color: #155050;
+    color: black;
     transition: transform 0.2s ease-in-out;
     display: inline-block
 }
@@ -120,8 +120,9 @@ hr{
     display: none;
     position: absolute;
     right: -62px;
-    top: 30px;
+    top: 10px;
     list-style-type: initial;
+    margin-top: 10px;
 }
 
 .characters-dropdown:hover .dropdown {
@@ -130,15 +131,18 @@ hr{
 .dropdown li:last-child {
     border-bottom: none;
 }
-.characters-dropdown:hover {
-    margin-top: -30px;
-}
 .dropdown li{
-    width: 111px
+    width: 111px;
+
 }
+
 /*----------------------*/
 .marine{
     width: 60px;
     filter: brightness(0) invert(1);
     margin-left: 10px;
+}
+.video-container {
+    margin-left: 100px;
+    margin-top: 0;
 }
